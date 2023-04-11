@@ -30,6 +30,7 @@ function ProductForm() {
     setProductImages([...productImages, ...files]);
   };
 
+
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -83,7 +84,7 @@ function ProductForm() {
       </div>
       <button type="submit">Submit</button>
     </form>
-    <button><a href="http://localhost:3001/dashboard">Go to dashboard</a></button>
+    <button onClick={() => navigate('/dashboard')}>Go to dashboard</button>
     </>
   );
 }

@@ -5,7 +5,7 @@ function Dashboard() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/products').then(async (response) => {
+    fetch('http://44.202.89.100:5001/products').then(async (response) => {
         let data = await response.json();
         setProducts(data.products);
       })
