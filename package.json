@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Puneet-iner.github.io/CMS-FRONTEND/",
-  "name": "cms-frontendp",
+  "homepage": "https://puneet-iner.github.io/CMS-FRONTEND/",
+  "name": "cms-frontend",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
